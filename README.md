@@ -1,17 +1,33 @@
 # my_first_app
 
-A new Flutter project.
+Lab 1: my first Flutter app, running on [my Android phone / an Android emulator].
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![App running](docs/app-running.png)
+![Flutter doctor](docs/flutter-doctor.png)
 
-A few resources to get you started if this is your first Flutter project:
+## What I did
+- Installed Git, Flutter, VS Code and Android Studio, and got `flutter doctor` working
+- Ran the app on my Phone 
+- Changed the greeting to "Hello, Chat TPG!", the theme seed colour to teal, and the app title
+- Added a second `Text` in a `Column`
+- Logged the screen width: [your value] dp (classmate's phone: [value] dp)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## What I learned and what blocked me
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this lab I learned that Flutter lets me build and change an app very quickly.
+With hot reload (r), I could edit the text, the theme colour or the layout and
+see the result on my phone almost immediately, which made it easy to experiment
+and improvise. I also learned how widgets like Column and Text fit together,
+that screen sizes are measured in dp, and how to use Git and GitHub to save and
+share my work with clear commits.
+
+What blocked me was mostly the setup. Installing Flutter and Android Studio
+took a while, and flutter doctor first showed a warning because the Android
+licenses were not accepted, which I fixed with flutter doctor --android-licenses.
+Then Git gave me an error when I added the remote, because I typed the angle
+brackets from the example URL, and I also had moments where Git said there was
+nothing to commit because my changes were already saved in an earlier commit.
+Fixing these problems taught me to read error messages carefully and to check
+git status before committing.
